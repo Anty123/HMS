@@ -20,7 +20,6 @@
 }
 
 /* Header Section  */
-
 .head_div {
     position: fixed;
     background-color: rgba(147, 143, 138, 0.5);
@@ -55,7 +54,6 @@
     color: #fff;
 }
 
-
 .head_menu button {
     background-color: #fff;
     color: rgb(34, 107, 225);
@@ -66,7 +64,6 @@
     font-size: 16px;
     transition: all 0.5s;
 }
-
 
 .head_menu button:hover {
     background-color: rgb(235, 214, 185);
@@ -85,22 +82,21 @@
     padding-left: 70px;
 }
 
-.hero_section h1{
+.hero_section h1 {
     color: white;
     font-size: 4.5rem;
     font-weight: 600;
     margin-bottom: 20px;
 }
 
-.hero_section p{
+.hero_section p {
     color: white;
     font-size: 1.5rem;
     font-weight: 50;
     margin-bottom: 20px;
 }
 
-
-.hero_btn{
+.hero_btn {
     background-color: #fff;
     color: rgb(34, 107, 225);
     padding: 10px 20px;
@@ -115,10 +111,8 @@
     cursor: pointer;
 }
 
-
 /* Service Section  */
-
-.grid-container{
+.grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto;
     margin: 0rem 3.5rem;
@@ -136,7 +130,7 @@
 }
 
 .grid-single-item:hover {
-    color: rgb(34, 107, 225) !important;
+    color: rgb(34, 107, 225);
 }
 
 .service_icon {
@@ -149,7 +143,6 @@
 }
 
 /* Image Section  */
-
 .service_img {
     background-image: url('./images/service.jpg');
     background-repeat: no-repeat;
@@ -161,10 +154,7 @@
     margin-bottom: 60px;
 }
 
-
 /* Team Members  */
-
-
 .team_member_div {
     display: flex;
     justify-content: center;
@@ -200,7 +190,6 @@
 }
 
 /* Category Section  */
-
 .grid-container-c {
     display: grid;
     grid-gap: 20px;
@@ -208,7 +197,6 @@
     margin: 0px 100px 80px;
     z-index: 99;
 }
-
 
 .text {
     color: white;
@@ -223,9 +211,7 @@
     transition: all 0.5s;
   }
 
-
-
-.grid-p1 {
+  [class*="grid-p"] {
     max-width: 100%;
     height: auto;
     text-align: center;
@@ -237,96 +223,33 @@
     border-radius: 15px;
     position: relative;
     transition: all 0.5s;
-}
-.grid-p2 {
-    max-width: 100%;
-    height: auto;
-    text-align: center;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 100px 80px;
+  }
+  
+  .grid-p1 {
+    background-image: url('./images/c1.jpg');
+  }
+
+  .grid-p2 {
     background-image: url('./images/c2.jpg');
-    background-size: cover;
-    border-radius: 15px;
-    position: relative;
-    transition: all 0.5s;
-}
-.grid-p3 {
-    max-width: 100%;
-    height: auto;
-    text-align: center;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 100px 80px;
+  }
+
+  .grid-p3 {
     background-image: url('./images/c3.jpg');
-    background-size: cover;
-    border-radius: 15px;
-    position: relative;
-    transition: all 0.5s;
-}
-.grid-p4 {
-    max-width: 100%;
-    height: auto;
-    text-align: center;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 100px 80px;
+  }
+
+  .grid-p4 {
     background-image: url('./images/c4.jpg');
-    background-size: cover;
-    border-radius: 15px;
-    position: relative;
-    transition: all 0.5s;
-}
-.grid-p5 {
-    max-width: 100%;
-    height: auto;
-    text-align: center;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 100px 80px;
+  }
+
+  .grid-p5 {
     background-image: url('./images/c5.jpg');
-    background-size: cover;
-    border-radius: 15px;
-    position: relative;
-    transition: all 0.5s;
-}
-.grid-p6 {
-    max-width: 100%;
-    height: auto;
-    text-align: center;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 100px 80px;
+  }
+
+  .grid-p6 {
     background-image: url('./images/c6.jpg');
-    background-size: cover;
-    border-radius: 15px;
-    position: relative;
-    transition: all 0.5s;
-    
-}
+  }
 
-
-
-.grid-p1:hover .text{
-    opacity: 1;
-    
-  }
-.grid-p2:hover .text{
-    opacity: 1;
-    
-  }
-.grid-p3:hover .text{
-    opacity: 1;
-   
-  }
-.grid-p4:hover .text{
-    opacity: 1;
-   
-  }
-.grid-p5:hover .text{
-    opacity: 1;
-}
-.grid-p6:hover .text{
+  [class*="grid-p"]:hover .text{
     opacity: 1;
   }
 
@@ -335,7 +258,6 @@
   }
 
 /* Statistics Section  */
-
 .grid-container-s{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -358,6 +280,7 @@
     font-size: 45px;
     color: rgb(34, 107, 225);
 }
+
 .service_grid_p1 {
     color: rgb(34, 107, 225);
     font-size: 50px;
@@ -365,7 +288,6 @@
 }
 
 /* Care Section  */
-
 .care_section {
     background-image: url('./images/care.jpg');
     background-repeat: no-repeat;
@@ -405,7 +327,6 @@
     grid-template-columns: auto auto auto auto auto;
     margin-top: 70px;
     padding: 0px 60px;
-
 }
 
 .grid-link-item {
@@ -415,8 +336,7 @@
 .grid-link-item p{
     color: rgb(17, 101, 236);
     font-size: 18px;
-    margin-bottom: 30px;
-    
+    margin-bottom: 30px;   
 }
 
 .grid-link-item a{
@@ -433,7 +353,6 @@
 }
 
 /* Footer Section  */
-
 .footer_main_div {
     display: flex;
     justify-content: space-between;
@@ -442,7 +361,6 @@
     margin: 50px 90px 0px;
     border-top: 1px solid rgb(186, 181, 181);
 }
-
 
 .footer_sub_div1 {
     display: inline-block;
@@ -475,7 +393,6 @@
 .footer_sub_div3 li {
     display: inline-block;
 }
-
 
 .footer_sub_div3 a{
     text-decoration: none;
